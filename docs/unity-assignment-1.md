@@ -19,7 +19,7 @@ Grading 0-3 points.
 ## Guidelines for Unity tasks
 
 - 2-step returning:
-  - return your Unity project to oma: Create a zip-file of your project folder containing only _Assets_ and _ProjectSettings_ subfolders
-  - present to teacher before deadline -> get the task points
+  1. return your Unity project to oma: Create a zip-file of your project folder containing only _Assets_ and _ProjectSettings_ subfolders
+  2. present project "live" to teacher latest at next day after the deadline to get the points
 - always list used references & sources in code comments or in a separate readme file
 - grading when returning late: less than a week: -50 %, more: -70-100 %
