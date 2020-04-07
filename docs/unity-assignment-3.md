@@ -16,6 +16,7 @@ Import your own 3D models to Unity and explore them and interact with them by mo
      - When using the free web version of Sketchup, save your model in **2017** format (`skp`)
      - [Sketchup Make 2017](https://help.sketchup.com/en/downloading-older-versions) is a free standalone software that can be used to export models in Collada format (`dae`) too
      - if having performance issues when importing/using models in Unity check that your model is not too complex
+     - if your model includes a camera, disable it to use the Unity's Main Camera game object
    - photogrammetry model if available (result from Mika's task)
    - 3D scanned model if available (result from Mika's task)
 2. Fix materials (if needed)
