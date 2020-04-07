@@ -6,7 +6,7 @@ Read the [Getting Started documentation](https://library.vuforia.com/articles/Tr
 
 1. Add [Vuforia Engine package](https://library.vuforia.com/content/vuforia-library/en/articles/Solution/vuforia-engine-package-hosting-for-unity.html) to Unity project (installation script can be found from Oma documents)
 1. Remove Main Camera and add AR Camera: _GameObject -> Vuforia Engine -> AR Camera_, import stuff when prompted
-1. Add Vuforia support to your project: open _File -> Build settings_, switch platform to Android (Install Android SDK if missing) and modify _Player Settings..._:
+1. Add Vuforia Android support to your project (optional step for development but needed for testing/running in mobile device) : open _File -> Build settings_, switch platform to Android ([Install Android SDK](../assets/unity-android-sdk-install.png) if missing) and modify _Player Settings..._:
     - set _product name_ and _package name_
     - set _minimun API level_ according to the age of the target devices you want to support (Lollipop level should be fine in most cases)
     - Disable _Android TV compatibility_
