@@ -13,7 +13,7 @@ Getting started:
 
 ---
 
-## Tools for JavaScript & WebGL developlment
+## Tools for JavaScript/WebGL/WebAR developlment
 
 Ultimately, code editor is your choice. VSCode is recommended.
 
