@@ -1,5 +1,13 @@
 # Unity assignment 4: Augmented reality with Vuforia Engine
 
+## About Vuforia
+
+- SDKs for Unity, Android & iOS
+- 3rd party AR engine for Unity, officially supported by Unity until Jan, 2020
+- cross-platform, build for Android & iOS
+- easy to get started with and test
+- gives you an idea what the AR development is
+
 ## Instructions
 
 Read the [Getting Started documentation](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html) for Unity.
@@ -16,7 +24,7 @@ Read the [Getting Started documentation](https://library.vuforia.com/articles/Tr
     - Change _Type_ in _Inspector_: _From Image_ -> _From Database_
     - Import default target database
     - Choose one of the provided image targets
-1. Add content (e.g. some 3D object(s)) to a child of the ImageTarget game object
+1. Add content (e.g. some 3D object(s)) as a child of the ImageTarget game object
 1. Build and run on a device (or use the [Vuforia play mode](https://library.vuforia.com/content/vuforia-library/en/articles/Solution/vuforia-play-mode-in-unity.html) and a webcam)
     - allow permission to use the camera of the device
 
