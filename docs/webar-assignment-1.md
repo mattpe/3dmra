@@ -1,6 +1,6 @@
 # WebAR Getting Started
 
-Getting started WebAR development with [A-Frame](https://aframe.io/) and [AR.js](https://github.com/AR-js-org/AR.js). A-Frame is [based on three.js](https://aframe.io/docs/1.0.0/introduction/developing-with-threejs.html).
+Getting started WebAR development with [A-Frame](https://aframe.io/) and [AR.js](https://github.com/AR-js-org/AR.js). A-Frame is [based on three.js](https://aframe.io/docs/1.0.0/introduction/developing-with-threejs.html) and has a [built-in support for AR.js](https://aframe.io/blog/arjs/).
 
 ## Prerequisites
 
