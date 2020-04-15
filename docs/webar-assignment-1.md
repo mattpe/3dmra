@@ -25,8 +25,10 @@ Install [JavaScript & web development tools](./01-software-setup.md).
         - browser window should be refreshed automatically when you save any changes in source files. If not or something else goes wrong, try to restart the dev server: hit _ctrl-c_ to stop and run `npm start` to run it again
 2. Follow the instructions of [Getting Started with Image Tracking](https://aframe.io/blog/arjs3/) tutorial (and check [AR.js Docs](https://ar-js-org.github.io/AR.js-Docs/) too!)
     - Study [Creating good markers](https://github.com/Carnaux/NFT-Marker-Creator/wiki/Creating-good-markers) and genereate your own image marker with [NFT Marker Creator](https://carnaux.github.io/NFT-Marker-Creator/) tool.
-3. Include your own model
+3. Include your own 3D model
+    - e.g. Photogrammetry model from Mika's assignment, some of the objects in your house model or anything else
     - [Supported model formats](https://aframe.io/docs/1.0.0/introduction/models.html)
+    - Try using/converting to [glTF format](https://aframe.io/docs/1.0.0/components/gltf-model.html)
 
 [Teacher's example files](../assets/webar/) for the 1st proof-of-concept tests (3D model source: <https://www.cgtrader.com/items/977015/download-page>).
 
@@ -64,3 +66,4 @@ To make a production build, a "release" of your app, stop the development server
 - [AR.js Marker generator](https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html)
 - [Using 3D models with AR.js and A-Frame](https://medium.com/@akashkuttappa/using-3d-models-with-ar-js-and-a-frame-84d462efe498)
 - [glTF format for 3D](https://en.wikipedia.org/wiki/GlTF)
+- [Online glTF converter](https://anyconv.com/gltf-converter/)
