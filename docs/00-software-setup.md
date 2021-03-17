@@ -2,9 +2,15 @@
 
 ## Unity 3D
 
-- Download and install Unity Hub from <https://unity3d.com/get-unity/download>
-  - Install latest Unity Editor version & Visual Studio IDE
-- Register for Individual license: choose personal or student
+1. Download, install & run [Unity Hub](https://unity3d.com/get-unity/download)
+2. On the _Installs_ page click _Add_ to install Unity editor
+    - choose the latest official or LTS version
+    - add modules: MS Visual Studio Community and build support for platforms you want to "release" your game/application to (mobile SDKs neeeded for VR/AR apps)
+    - [Visual Studio Code](https://code.visualstudio.com/docs/other/unity) is a lighter alternative to Visual Studio Community IDE
+3. Wait for the installation process to complete
+    - Downloading of all the components may take some time..
+
+When registering to Unity, choose individual -> personal account (or student account if eligible).
 
 Getting started:
 
@@ -13,7 +19,7 @@ Getting started:
 
 ---
 
-## Tools for JavaScript/WebGL/WebAR developlment
+## Tools for JavaScript/WebGL/WebAR development
 
 Ultimately, code editor is your choice. VSCode is recommended.
 
