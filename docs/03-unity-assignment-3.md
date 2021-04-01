@@ -19,6 +19,7 @@ Import your own 3D models to Unity and explore them and interact with them by mo
      - if your model includes a camera, disable it to use the Unity's Main Camera game object
    - add your photogrammetry model if available (result/product of another assignment)
    - add your 3D scanned model if available (result/product of another assignment)
+   - [FBX to Unity Import Settings - Quick Lessons](https://www.youtube.com/watch?v=Hw8FzHvP9SY) (11 min vid about the process and fixing materials in Unity)
    - Some tips _for Sketchup users_:
      - [Sketchup model import settings](https://docs.unity3d.com/Manual/class-SketchUpImporter.html)
      - try with `.skp`, `.fbx`, or `.dae` format
