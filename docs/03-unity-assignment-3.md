@@ -34,6 +34,7 @@ Import your own 3D models to Unity and explore them and interact with them by mo
 1. Add your extras, use your imagination, some ideas:
     - use of hotspots and other user interactions
     - innovative use of models
+    - set the atmosphere by playing with ligths & scene background skybox (see Antti's _TexturingAndStuff.zip_ example project in Oma)
     - _anything_ to make your scene more interesting for user to explore
     - [VR headset support](./unity-vr-instructions.md)
 
