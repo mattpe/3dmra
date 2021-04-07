@@ -1,24 +1,24 @@
 # Unity Build for VR Goggles
 
-## Adding Google VR Support (Cardboard) and Building in Unity for Android (& iOS)
+## Adding Google VR Support (Cardboard) and building for Android devices (or iOS)
 
-- Follow the instructions by Google: [Quickstart for Google Cardboard for Unity](https://developers.google.com/cardboard/develop/unity/quickstart)
+1. Follow the instructions by Google: [Quickstart for Google Cardboard for Unity](https://developers.google.com/cardboard/develop/unity/quickstart) and study especially the _Player/Main Camera_ GameObjects and attached components
+1. Adapt settings adn concepts to your own project/scene
+1. Check also Unity docs: [Configuring your Unity Project for XR](https://docs.unity3d.com/Manual/configuring-project-for-xr.html)
 
-- [Configuring settings for Android](https://developers.google.com/cardboard/develop/unity/quickstart#configuring_android_project_settings)
-- [Configuring settings for iOS](https://developers.google.com/cardboard/develop/unity/quickstart#configuring_ios_project_settings)
+### Some generic tips for VR builds (Android)
 
-### Some tips for VR builds (Android)
-
-- Disable _SmoothMouseLook.cs_ and other keyboard/mouse controls if used
+- Disable _SmoothMouseLook.cs_ and other keyboard/mouse controls if used for development only
+- Enable XR plugins  _Edit_ -> _Project Settings_ -> _XR Plugin Management_, click _Install XR Plugin Management system_
 - Download and install [Android SDK](https://developer.android.com/studio#downloads) if needed
 - Check/test/fix Canvas settings when using canvas based UI ([more info](https://unity3d.com/learn/tutorials/topics/virtual-reality/user-interfaces-vr), must be done for every scene)
   - Choose `Canvas` game object
   - Set Render mode to _Screen space - Camera_
   - Drag `Main Camera` game object to _Render Camera_
-  - Set Plane distance value to something smaller (affects to how large UI elements appear on screen and how far the UI gets drawn compared to other game objects in the scene)
-- Choose _Player settings..._ and set them in inspector:
-  - Product & Company name
-  - Android settings: Package Name
+  - Fix _Plane Distance_ & _Scale Factor_ values (affects to how large UI elements appear on screen and how far the UI gets drawn compared to other game objects in the scene)
+- Make sure you have [Android SDK Tools & JDK included in Unity modules installation](../assets/unity-android-sdk-install.png)
+- Make your app identifier unique, choose _Player settings..._ and set: _Company Name_ and _Product Name_ to create a unique _Package Name_
+- Set _minimum API level_ ([Android version](https://en.wikipedia.org/wiki/Android_version_history)) according to the specs of your test device (or how old Android versions you want to support)
 - _Build & Run_ on a device connected with USB
   - [Enable developer mode](https://developer.android.com/studio/debug/dev-options) on your device
   - Allow USB debugging
@@ -28,11 +28,16 @@
 ## Unity VR docs & tutorials
 
 - [Unity VR Documentation](https://docs.unity3d.com/Manual/VROverview.html)
-
 - Read [VR best practice tutorial](https://learn.unity.com/tutorial/vr-best-practice)
 - Check [Best UI Practices for VR tutorial](https://learn.unity.com/tutorial/unit-6-best-ui-practices-for-vr)
 
-## Building for Samsung Gear VR
+## Other VR devices
+
+Follow the developer instructions provided by the device manufacturer and select correct XR plugin in Unity XR plugin management settings.
+
+---
+
+### Building for Samsung Gear VR goggles
 
 - [Oculus Unity Developer Guide](https://developer.oculus.com/documentation/unity/latest/concepts/book-unity-dg/)
 
