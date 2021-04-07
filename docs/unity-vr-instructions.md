@@ -3,20 +3,19 @@
 ## Adding Google VR Support (Cardboard) and building for Android devices (or iOS)
 
 1. Follow the instructions by Google: [Quickstart for Google Cardboard for Unity](https://developers.google.com/cardboard/develop/unity/quickstart) and study especially the _Player/Main Camera_ GameObjects and attached components
-1. Adapt settings adn concepts to your own project/scene
+1. Adapt settings and concepts from the quickstart to your own project/scene
 1. Check also Unity docs: [Configuring your Unity Project for XR](https://docs.unity3d.com/Manual/configuring-project-for-xr.html)
 
 ### Some generic tips for VR builds (Android)
 
 - Disable _SmoothMouseLook.cs_ and other keyboard/mouse controls if used for development only
-- Enable XR plugins  _Edit_ -> _Project Settings_ -> _XR Plugin Management_, click _Install XR Plugin Management system_
-- Download and install [Android SDK](https://developer.android.com/studio#downloads) if needed
+- Enable appropriate XR plugins  _Edit_ -> _Project Settings_ -> _XR Plugin Management_, click _Install XR Plugin Management system_
 - Check/test/fix Canvas settings when using canvas based UI ([more info](https://unity3d.com/learn/tutorials/topics/virtual-reality/user-interfaces-vr), must be done for every scene)
   - Choose `Canvas` game object
   - Set Render mode to _Screen space - Camera_
   - Drag `Main Camera` game object to _Render Camera_
   - Fix _Plane Distance_ & _Scale Factor_ values (affects to how large UI elements appear on screen and how far the UI gets drawn compared to other game objects in the scene)
-- Make sure you have [Android SDK Tools & JDK included in Unity modules installation](../assets/unity-android-sdk-install.png)
+- Make sure you have [Android SDK Tools & JDK included in Unity modules installation](../assets/unity-android-sdk-install.png) or download, install & configure [Android SDK](https://developer.android.com/studio#downloads) manually
 - Make your app identifier unique, choose _Player settings..._ and set: _Company Name_ and _Product Name_ to create a unique _Package Name_
 - Set _minimum API level_ ([Android version](https://en.wikipedia.org/wiki/Android_version_history)) according to the specs of your test device (or how old Android versions you want to support)
 - _Build & Run_ on a device connected with USB
