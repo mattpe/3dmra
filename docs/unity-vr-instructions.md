@@ -9,6 +9,7 @@
 ### Some generic tips for VR builds (Android)
 
 - Disable _SmoothMouseLook.cs_ and other keyboard/mouse controls if used for development only
+  - Replace with _Tracked Pose Driver_ componet to use the device orientation for controlling the camera rotation
 - Enable appropriate XR plugins  _Edit_ -> _Project Settings_ -> _XR Plugin Management_, click _Install XR Plugin Management system_
 - Check/test/fix Canvas settings when using canvas based UI ([more info](https://unity3d.com/learn/tutorials/topics/virtual-reality/user-interfaces-vr), must be done for every scene)
   - Choose `Canvas` game object
